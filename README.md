@@ -50,6 +50,7 @@ Predicted label (Positive or Negative)
 Positive probability score
 Negative probability score
 
+
 🖥️ How to Run Locally
 ✔️ 1. Create environment & install dependencies
 pip install -r requirements.txt
@@ -77,21 +78,16 @@ http://localhost:8501
 🌐 How to Deploy on Streamlit Cloud
 
 Push your repository to GitHub
-
 Go to: https://share.streamlit.io
-
 Click New App
-
 Select your repo: NLP-Sentiment-Analysis
 
 Choose:
-
 Branch: main
 File: streamlit_app.py
 
 
 Deploy!
-
 After deployment, Streamlit provides a public link you can share.
 
 🎯 Key Features
