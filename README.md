@@ -16,8 +16,8 @@ This project demonstrates a full NLP pipeline:
 It is lightweight, fast, and deployable on Streamlit Cloud for free.
 
 🧪 Model Workflow
-1️⃣ Data Preprocessing
 
+1️⃣ Data Preprocessing
 Lowercasing
 Removing punctuation
 Removing URLs
@@ -25,13 +25,11 @@ Normalizing whitespace
 Tokenization & lemmatization (if enabled)
 
 2️⃣ Feature Extraction
-
 TF-IDF (Term Frequency–Inverse Document Frequency)
 Uses unigrams and bigrams
 Maximum of ~30,000 features
 
 3️⃣ Model Training
-
 Algorithm used:
 👉 Logistic Regression (scikit-learn)
 Easy to interpret
@@ -42,7 +40,6 @@ tfidf_vectorizer.joblib
 sentiment_model.joblib
 
 4️⃣ Prediction
-
 For any input text, the UI or CLI shows:
 Predicted label (Positive or Negative)
 Positive probability score
@@ -50,31 +47,21 @@ Negative probability score
 
 
 🖥️ How to Run Locally
+
 ✔️ 1. Create environment & install dependencies
 pip install -r requirements.txt
-
 ✔️ 2. (Optional) Train model
 python models/train_standalone.py
-
 This generates .joblib model files inside models/.
-
 ✔️ 3. Run the Streamlit app
-
 If using the deployment file:
-
 streamlit run streamlit_app.py
-
 If using the offline local app:
-
 streamlit run src/app_direct.py
-
-
 Streamlit will open at:
-
 http://localhost:8501
 
 🌐 How to Deploy on Streamlit Cloud
-
 Push your repository to GitHub
 Go to: https://share.streamlit.io
 Click New App
@@ -83,7 +70,6 @@ Select your repo: NLP-Sentiment-Analysis
 Choose:
 Branch: main
 File: streamlit_app.py
-
 
 Deploy!
 After deployment, Streamlit provides a public link you can share.
