@@ -2,8 +2,6 @@
 
 An end-to-end Natural Language Processing (NLP) project that classifies movie reviews as Positive or Negative using classical machine learning techniques. This project includes text preprocessing, TF-IDF vectorization, model training, saving artifacts, and deploying an interactive interface using Streamlit.
 
-This repository is structured and documented for showcasing in ML/DL portfolios, university applications, and interviews.
-
 🧠 Project Overview
 
 This project demonstrates a full NLP pipeline:
